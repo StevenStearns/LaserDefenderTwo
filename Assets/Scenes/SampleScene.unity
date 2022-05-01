@@ -241,6 +241,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e0018a00584ff3c4990fb13e10ce6c57, type: 2}
   fltTimeBetweenWaves: 2
   currentWave: {fileID: 11400000, guid: c408c9cfd75c5f54ebe63d364fae2690, type: 2}
+  blIsLooping: 1
 --- !u!4 &492654445
 Transform:
   m_ObjectHideFlags: 0
