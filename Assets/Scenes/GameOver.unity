@@ -315,17 +315,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 898c516aae5bec84fbf3a76b1ce4071a, type: 3}
---- !u!114 &152465573 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6908614028331994535, guid: 898c516aae5bec84fbf3a76b1ce4071a, type: 3}
-  m_PrefabInstance: {fileID: 152465572}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 739cbd82603b3f74ea3899ad59d5dc4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &207504527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -445,7 +434,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -609,8 +598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -138}
-  m_SizeDelta: {x: 624.442, y: 90.423}
+  m_AnchoredPosition: {x: 45.306, y: 224.666}
+  m_SizeDelta: {x: 715.05, y: 175.644}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &584026312
 MonoBehaviour:
@@ -746,8 +735,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -86.622, y: 84.769}
-  m_SizeDelta: {x: 512.91, y: 260.874}
+  m_AnchoredPosition: {x: 29.878, y: 454.356}
+  m_SizeDelta: {x: 745.91, y: 283.735}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837030727
 MonoBehaviour:
@@ -1236,8 +1225,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39, y: 333}
-  m_SizeDelta: {x: 608.154, y: 235.587}
+  m_AnchoredPosition: {x: 29.878, y: 736.88}
+  m_SizeDelta: {x: 745.913, y: 281.308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957548483
 MonoBehaviour:
@@ -1629,18 +1618,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1968187099}
         m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: LoadGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 152465573}
-        m_TargetAssemblyTypeName: ScoreKeeper, Assembly-CSharp
-        m_MethodName: ResetScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

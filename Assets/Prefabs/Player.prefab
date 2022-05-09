@@ -83,7 +83,7 @@ MonoBehaviour:
   fltMoveSpeed: 5
   fltPaddingLeft: 0.5
   fltPaddingRight: 0.5
-  fltPaddingTop: 5
+  fltPaddingTop: 8
   fltPaddingBottom: 2
 --- !u!58 &-2060138237099958805
 CircleCollider2D:
